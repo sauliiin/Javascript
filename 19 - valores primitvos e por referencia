@@ -1,0 +1,3 @@
+Primitivos (imutáveis) - string, number, boolean, undefined, null (bigint, symbol)
+
+referência (mutável) - array, object e function

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Tabela IMC</h1>
+        <div id="esquerda">
+            <p><strong>IMC</strong></p>
+            Menos do que 18,5<br>
+            Entre 18,5 e 24,9<br>
+            Entre 25 e 29,9<br>
+            Entre 30 e 39,9<br>
+            Mais do que 40<br>
+        </div>
+        <div id="direita">
+            <p><strong>Resultado</strong></p>
+            Abaixo do peso<br>
+            Peso normal<br>
+            Sobrepeso<br>
+            Obeso<br>
+            Obesidade grave<br>
+        </div>
+        <form>
+            <label>Digite seu peso: <input type="number" class="btn2" id="peso"></label><br>   
+            <label>Digite sua altura: <input type="number" class="btn" id="altura"></label><br>    
+            <input type="button" value="ANALISAR" class="send" onclick="analisar()"><br>
+        </form>
+        <div id="res">
+        </div>   
+    </section>
+    <script src="./assets/JS/main.js"></script>
+</body>
+</html>

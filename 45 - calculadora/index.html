@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Calculadora</h1>
+    <table class="calculadora"> <!--O elemento <table> HTML representa dados tabulares — isto é, informações apresentadas em uma tabela bidimensional composta por linhas e colunas de células contendo dados .-->
+      <tr>
+        <td colspan="4"><input type="text" id="display" class="display"></td><!--O elemento HTML <tr> define uma linha de células em uma tabela. As células da linha podem então ser estabelecidas usando uma combinação de elementos <td> (célula de dados) e <th> (célula de cabeçalho). colspan é o número de colunas. The table body com 4 colunas-->
+      </tr>
+      <tr>
+        <td><button id="clear" class="btn btn-clear">C</button></td>
+        <td><button id="btn-num" class="btn">(</button></td>
+        <td><button id="btn-num" class="btn">)</button></td>
+        <td><button id="btn-num" class="btn">/</button></td>
+      </tr>
+
+      <tr>
+        <td><button id="btn-num" class="btn">7</button></td>
+        <td><button id="btn-num" class="btn">8</button></td>
+        <td><button id="btn-num" class="btn">9</button></td>
+        <td><button id="btn-num" class="btn">*</button></td>
+      </tr>
+
+      <tr>
+        <td><button id="btn-num" class="btn">4</button></td>
+        <td><button id="btn-num" class="btn">5</button></td>
+        <td><button id="btn-num" class="btn">6</button></td>
+        <td><button id="btn-num" class="btn">+</button></td>
+      </tr>
+
+      <tr>
+        <td><button id="btn-num" class="btn">1</button></td>
+        <td><button id="btn-num" class="btn">2</button></td>
+        <td><button id="btn-num" class="btn">3</button></td>
+        <td><button id="btn-num" class="btn">-</button></td>
+      </tr>
+
+      <tr>
+        <td><button id="btn-num" class="btn">.</button></td>
+        <td><button id="btn-num" class="btn">0</button></td>
+        <td><button id="del" class="btn btn-del">&laquo;</button></td>
+        <td><button id="eq" class="btn btn-eq">=</button></td>
+      </tr>
+
+    </table>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

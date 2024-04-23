@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FizzBuzz</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>FizzBuzz</h1>
+    <p id="p1">Vamos jogar FizzBuzz!</p>
+    <p>
+      Se o valor digitado é divisível por 3 = <strong>Fizz</strong><br>
+      Se o valor digitado é divisível por 5 = <strong>Buzz</strong><br>
+      Se o valor digitado é divisível por 3 e 5 = <strong>FizzBuzz</strong><br>
+      Se não é divisível por 3 nem 5 = <strong>retorna o próprio número</strong><br>
+      Se não é um número, <strong>atenção!</strong> <br>
+      Regra: Use a função com números <strong>entre 0 e 100.</strong>
+    </p><label>Digite um número entre 0 e 100: <input type="text" id="BF" class="btn"></label></p>
+    <input type="button" value="VERIFICAR" id="check" class="btn" onclick="FizzBuzzSlim()">
+    <div class="res"></div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

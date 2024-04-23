@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For us</title>
+    <link rel="stylesheet" href="./assets/css/style.css" 
+</head>
+<body>
+    <section class="intro">
+        <h1>Construindo um artigo</h1>
+        <div id="esquerda">
+            Escolha qual elemento você quer acrescentar:
+        </div>
+        <div id="direita">
+            <select aria-label="artigo" id="article">
+                <option value="h2">Título</option>
+                <option value="p">Parágrafo</option>
+                <option value="section">Texto</option>
+                <option value="footer">Assinatura</option>
+            </select>
+        </div>
+
+        <p>Digite a pauta do relator acima e, após, clique em acrescentar:</p>
+        
+        <textarea class="txtd" id="txtd" name="searchbox" type="text" rows="1" dir="" autocapitalize="off" autocomplete="off" aria-autocomplete="false" spellcheck="true" enterkeyhint="send" autocorrect="off" maxlength="2000" autofocus=""></textarea>
+
+        <div id="esquerda">
+            <input type="button" value="Acrescentar" class="btn" onclick="acrescentar()">
+        </div>
+        <div id="direita">
+            <input type="button" value="Limpar" class="send" onclick="limpar()">
+        </div>
+
+    </section>
+    <section class = "res"></section>
+
+    <script src="./assets/JS/main.js"></script>
+</body>
+</html>

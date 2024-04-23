@@ -1,0 +1,13 @@
+// Função recursiva é nada mais do que uma função que se chama de volta
+
+function recursiva (max) {
+    if (max >= 10) return;    // Se o número for maior ou igual a 10 a função para.
+    max++;
+    console.log(max);
+    recursiva(max);
+} 
+
+recursiva(1)
+
+// Veja que a função é bem recursiva e se assemelha com o laço for ou while. A gente tem que se preocupar com um gatilho para a função parar de se chamar. No caso, eu usei o if e return.
+

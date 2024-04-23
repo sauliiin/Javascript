@@ -1,0 +1,54 @@
+body {
+  font: bold 18pt "Comic Sans MS";
+  margin: 0;
+  padding: 0;
+  background-color: rgb(85, 0, 241);
+  font-size: 1.3em;
+  line-height: 1em;
+  text-align: center
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+div {
+  font-size: 4em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.btn {
+  width: 20%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font: bold 18pt "Comic Sans MS";
+  font-size: 20px;
+  height: 35px;
+  padding: 0 20px;
+}
+.btn:hover{
+    outline-color: transparent;
+    outline-style: solid;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 5px rgb(16, 0, 87);
+    transition: 0.5s;   
+}
+.btn:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  color: aliceblue;
+  font-size: 22px;
+  background-color:rgb(16, 0, 87);
+  box-shadow: 0 0 0 5px rgb(15, 57, 245);
+  transition: 0.5s;
+  font: bold;  
+}

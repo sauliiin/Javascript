@@ -1,0 +1,75 @@
+body {
+    color: rgb(255, 255, 255);
+    font: normal 20pt "Comic Sans MS";
+    text-align: center;
+    text-shadow: 6px 6px 5px #000000;
+    line-height: 1.5em;
+}
+section {
+    background-color: rgb(102, 168, 199);
+    box-shadow: 10px 10px 10px rgba(11, 0, 43, 0.859);
+    border-radius: 30px;
+    width: 550px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+    font: italic 16pt "Comic Sans MS";
+}
+.btn{
+    color: rgb(0, 0, 0);
+    font: bold 15pt "Comic Sans MS";
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.859);   
+}
+.btn:hover{
+    outline-color: transparent;
+    outline-style: solid;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 5px rgb(16, 0, 87);
+    transition: 0.7s;   
+}
+.btn:focus{
+    outline-color: transparent;
+    outline-style: solid;
+    color: aliceblue;
+    background-color:rgb(16, 0, 87);
+    box-shadow: 0 0 0 5px rgb(15, 57, 245);
+    transition: 0.7s;   
+}
+.send {
+    color: rgb(0, 0, 0);
+    background-color: rgb(167, 220, 245);
+    font: normal 16pt "Comic Sans MS";
+    text-align: center;
+    width: 160px;
+    border-radius: 30px;
+    border-width: 6px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.859);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}   
+.send:hover{
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 5px rgb(15, 57, 245);
+    transition: 0.7s; 
+}
+.send:focus{
+    font: bold 20pt "Comic Sans MS";
+    outline-color: transparent;
+    outline-style: solid;
+    color: rgb(255, 255, 255);
+    background-color:rgb(16, 0, 87);
+    box-shadow: 0 0 0 5px rgb(16, 0, 87);
+    transition: 0.7s;   
+}
+

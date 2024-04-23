@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(10, 33, 165);
+    color: rgb(0, 0, 0);
+    font: normal 25pt "Comic Sans MS";
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.859);
+}
+article {
+    margin: auto;
+    background-color: rgb(102, 168, 199);
+    box-shadow: 10px 10px 10px rgba(11, 0, 43, 0.859);
+    border-radius: 30px;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+}
+article#res {
+    margin-top: 20px;
+    font: normal 18pt "Comic Sans MS";
+    width: 400px;
+}
+div {
+    .btn1, .btn2 {
+        color: rgb(0, 0, 0);
+        font: bold 18pt "Comic Sans MS";
+        text-align: center;
+        width: 150px;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.859);       
+    }
+    .btn2:hover {
+        background-color:rgb(38, 103, 224);
+        transition: 0.7s;
+    }
+    .btn2:focus {
+        outline-color: transparent;
+        outline-style: solid;
+        color: aliceblue;
+        background-color:rgb(16, 0, 87);
+        box-shadow: 0 0 0 5px rgb(10, 33, 165);
+        transition: 0.7s;   
+    }
+}

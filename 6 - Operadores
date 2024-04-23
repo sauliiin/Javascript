@@ -1,0 +1,24 @@
+// Aritméticos: + - / *
+// + faz adição e concatenação
+
+let cont = 1
+console.log(cont++)  // cont = cont + 1
+console.log(cont++)
+
+console.log("")
+let cont1 = 1
+console.log(++cont1) // cont + 1 = cont
+console.log(++cont1)
+
+console.log("")
+let cont2 = 1
+console.log(cont2--)
+console.log(cont2--)
+
+console.log("")
+let cont3 = 1
+console.log(--cont3)
+console.log(--cont3)
+
+let contador = 0
+contador += 2 // contador = contador + 2

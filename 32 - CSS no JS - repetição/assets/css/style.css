@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+div#esquerda, div#direita {
+  display: inline-block;  /*ESTE É O SEGREDO PARA DIVIDIR A DIV NO MEIO! DEPOIS EU PEGO UMA DELAS E COLOCO QUE A LARGURA*/
+  text-align: left   
+}
+div#esquerda {
+  width: 50%;    
+}
+
+.btn1, .btn2, .btn3, .btn4 {
+  color: rgb(0, 0, 0);
+  font: bold 10pt "Comic Sans MS";
+  text-align: center;
+  width: 160px;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.859);
+  margin-left: 85px;
+  margin-bottom: 15px;   
+}
+.btn1:hover {
+  outline-color: transparent;
+  outline-style: solid;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 0 5px rgb(246, 255, 0);
+  transition: 0.7s;   
+}
+.btn2:hover {
+  outline-color: transparent;
+  outline-style: solid;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 0 5px rgb(0, 221, 255);
+  transition: 0.7s;   
+}
+.btn3:hover {
+  outline-color: transparent;
+  outline-style: solid;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 0 5px rgb(255, 0, 247);
+  transition: 0.7s;   
+}
+.btn4:hover {
+  outline-color: transparent;
+  outline-style: solid;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 0 5px rgb(97, 188, 0);
+  transition: 0.7s;   
+}
+.btn1:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  color: rgb(0, 0, 0);
+  background-color:rgb(255, 247, 0);
+  box-shadow: 0 0 0 5px rgb(117, 133, 0);
+  transition: 0.7s;   
+}
+.btn2:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  color: aliceblue;
+  background-color:rgb(16, 0, 87);
+  box-shadow: 0 0 0 5px rgb(15, 57, 245);
+  transition: 0.7s;   
+}
+.btn3:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  color: aliceblue;
+  background-color:rgb(255, 0, 170);
+  box-shadow: 0 0 0 5px rgb(94, 0, 80);
+  transition: 0.7s;   
+}
+.btn4:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  color: rgb(0, 0, 0);
+  background-color:rgb(77, 231, 0);
+  box-shadow: 0 0 0 5px rgb(18, 89, 0);
+  transition: 0.7s;   
+}
+
+

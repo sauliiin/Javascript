@@ -1,0 +1,29 @@
+{
+    "cSpell.words": [
+        "desutrutuiração",
+        "Gustaf",
+        "Rossi"
+    ],
+    "liveServer.settings.port": 5501,
+    "standard.autoFixOnSave": true,
+    "standard.enableGlobally": true,
+    "standard.options": {
+        "globals": [
+            "$",
+            "jQuery",
+            "fetch"
+        ],
+        "ignore": [
+            "node_modules/**"
+        ],
+        "plugins": [
+            "html"
+        ],
+        "parser": "babel-eslint",
+        "envs": [
+            "jest"
+        ]
+    },
+    "standard._legacyModuleResolve": true,
+    "cSpell.language": "en,pt"
+}

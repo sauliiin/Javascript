@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  height: 3720px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: justify;
+}
+div {
+  max-width: 540px;
+  height: 3140px;
+  margin: 40px auto;
+  background: rgb(17, 86, 102);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-align: left;
+}
+h1, #p1 {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 35px;
+  padding: 0 20px;
+}
+.btn:hover{
+    outline-color: transparent;
+    outline-style: solid;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 5px rgb(16, 0, 87);
+    transition: 0.7s;   
+}
+.btn:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  color: aliceblue;
+  font-size: 25px;
+  background-color:rgb(16, 0, 87);
+  box-shadow: 0 0 0 5px rgb(15, 57, 245);
+  transition: 0.7s;
+  font: bold;  
+}

@@ -1,0 +1,120 @@
+ /*O comando baixo com * serve aplicar a tudo */
+body {
+    background-color: rgb(10, 33, 165);
+    color: rgb(0, 0, 0);
+    font: normal 24pt "Comic Sans MS";
+    text-align: center;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.859);
+}
+div {
+    font: bold 15pt "Comic Sans MS";;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.859);
+    margin-bottom: 12px;
+}
+.intro {
+    background-color: rgb(102, 168, 199);
+    box-shadow: 10px 10px 10px rgba(11, 0, 43, 0.859);
+    border-radius: 30px;
+    width: 950px;
+    height: 950px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.res {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgba(11, 0, 43, 0.859);
+    border-radius: 30px;
+    max-width: 800px;
+    height: 350px;
+    padding: 10px;
+    margin: auto;
+    margin-top: -520px;
+    margin-bottom: 100px;
+    h2 {
+        font: bold 18pt "Comic Sans MS";
+        text-align: center;
+    }
+    p {
+        font: 15pt "Comic Sans MS";
+        text-align: justify;
+    }
+    section {
+        font: 15pt "Comic Sans MS";
+        text-align: justify;
+    }
+    footer {
+        text-align: center;
+        font: italic 10pt "Comic Sans MS";
+        color: rgba(29, 29, 29, 0.859);
+        text-shadow: 2px 2px 6px white;
+    }
+}
+div#esquerda, div#direita {
+    display: inline-block;  /*ESTE É O SEGREDO PARA DIVIDIR A DIV NO MEIO! DEPOIS EU PEGO UMA DELAS E COLOCO QUE A LARGURA*/
+    text-align: left   
+}
+div#esquerda {
+    width: 50%;    
+}
+.btn, select, .send {
+    color: rgb(0, 0, 0);
+    font: bold 10pt "Comic Sans MS";
+    text-align: center;
+    width: 160px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.859);
+    margin-left: -30px;   
+}
+.btn {
+    margin-left: 150px;
+}
+.txtd, .text-area {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgba(11, 0, 43, 0.859);
+    border-radius: 30px;
+    width: 800px;
+    height: 150px;
+}
+.btn:hover, select:hover, .txtd:hover{
+    outline-color: transparent;
+    outline-style: solid;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 5px rgb(16, 0, 87);
+    transition: 0.7s;   
+}
+.btn:focus{
+    outline-color: transparent;
+    outline-style: solid;
+    color: aliceblue;
+    background-color:rgb(16, 0, 87);
+    box-shadow: 0 0 0 5px rgb(15, 57, 245);
+    transition: 0.7s;   
+}
+.send {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 160px;
+    border-width: 6px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.859);
+    margin-right: 80px;
+}   
+.send:hover{
+    outline-color: transparent;
+    outline-style: solid;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 5px rgb(15, 57, 245);
+    transition: 0.7s; 
+}
+.send:focus{
+    font: bold 11pt "Comic Sans MS";
+    outline-color: transparent;
+    outline-style: solid;
+    background-color:rgb(255, 0, 0);
+    box-shadow: 0 0 0 5px rgb(16, 0, 87);
+    transition: 0.7s;   
+}

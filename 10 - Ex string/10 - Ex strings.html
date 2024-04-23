@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+    <link rel="stylesheet" href="estiloso.css">
+    <style>
+        body {
+            background-color: aqua;
+            color: blueviolet;
+            font: normal 25pt "Comic Sans MS";
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Strings</h1>
+    </header>
+    <section>
+        <script>
+            //document.body.innerHTML = 'Olá! Seja bem vindo!'
+            const nome = 'Mestre Saulo Yoda Hugo Rossi'
+            setTimeout(() => {document.body.innerHTML = `Até logo, <strong>${nome}</strong>!`}, 40000);
+            document.body.innerHTML += `Olá, <strong>${nome}</strong>, seja bem vindo!<br>`; // Se eu coloco o += concatena, se eu coloco só o =, substitui tudo
+            let nome2 = nome.replace(/ /g, '')
+            document.body.innerHTML += `Seu nome tem <strong>${nome2.length - 1}</strong> letras.<br>`
+            document.body.innerHTML += `Seu nome tem <strong>${nome.replace(/ /g, '').length - 1}</strong> letras.<br>`  
+            document.body.innerHTML += `A segunda letra do seu nome é <strong>${nome[1]}</strong>.<br>`; 
+            document.body.innerHTML += `A letra "o" aparece pela primeira vez no seu nome na posição <strong>${nome.indexOf('o')}</strong>.<br>`
+            document.body.innerHTML += `A letra "o" aparece pela última vez no seu nome na posição <strong>${nome.lastIndexOf('o')}</strong>.<br>`
+            document.body.innerHTML += `As últimas 5 letras do seu nome são: <strong>${nome.slice(-5)}</strong>.<br>`
+            document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(' ')}</strong>.<br>`
+            document.body.innerHTML += `Seu nome com todas letras maiúsculas é: <strong>${nome.toUpperCase()}</strong>.<br>`
+            document.body.innerHTML += `Seu nome com todas letras minúsculas é: <strong>${nome.toLowerCase()}</strong>.<br>`
+        </script>
+    </section>
+</body>
+</html>

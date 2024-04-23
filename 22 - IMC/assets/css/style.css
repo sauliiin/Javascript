@@ -1,0 +1,98 @@
+ /*O comando baixo com * serve aplicar a tudo */
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+:root {
+    --primary-color: rgb(10, 33, 165);
+}
+
+body {
+    background-color: rgb(10, 33, 165);
+    color: rgb(0, 0, 0);
+    font: normal 22pt "Comic Sans MS";
+    text-align: center;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.859);
+    line-height: 1.5em;
+}
+.container {
+    background-color: rgb(102, 168, 199);
+    box-shadow: 10px 10px 10px rgba(11, 0, 43, 0.859);
+    border-radius: 30px;
+    max-width: 800px;
+    height: 800px;
+    padding: 20px;
+    margin: 40px auto;
+}
+div#esquerda, div#direita {
+    display: inline-block;  /*ESTE É O SEGREDO PARA DIVIDIR A DIV NO MEIO! DEPOIS EU PEGO UMA DELAS E COLOCO QUE A LARGURA É 50%*/
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+div#esquerda {
+    width: 50%;    
+}
+form {
+    width: 400px, auto;
+    line-height: 2.5em;
+}
+.btn, .btn2 {
+    color: rgb(0, 0, 0);
+    font: bold 15pt "Comic Sans MS";
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.859);   
+}
+.btn:hover, .btn2:hover{
+    outline-color: transparent;
+    outline-style: solid;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 5px rgb(16, 0, 87);
+    transition: 0.7s;   
+}
+.btn:focus, .btn2:focus{
+    outline-color: transparent;
+    outline-style: solid;
+    color: aliceblue;
+    background-color:rgb(16, 0, 87);
+    box-shadow: 0 0 0 5px rgb(15, 57, 245);
+    transition: 0.7s;   
+}
+.btn2 {
+    margin-left: 15px;
+}
+.send {
+    color: rgb(0, 0, 0);
+    background-color: rgb(167, 220, 245);
+    font: normal 16pt "Comic Sans MS";
+    text-align: center;
+    width: 160px;
+    border-radius: 30px;
+    border-width: 6px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.859);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}   
+.send:hover{
+    outline-color: transparent;
+    outline-style: solid;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 5px rgb(15, 57, 245);
+    transition: 0.7s; 
+}
+.send:focus{
+    font: bold 20pt "Comic Sans MS";
+    outline-color: transparent;
+    outline-style: solid;
+    background-color:rgb(0, 255, 21);
+    box-shadow: 0 0 0 5px rgb(16, 0, 87);
+    transition: 0.7s;   
+}
+div#res {
+    border-radius: 15px;
+}

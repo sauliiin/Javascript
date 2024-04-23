@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action=" ">
+        CPF
+        <input type="text" class="cpf" maxlength="14" placeholder="000.000.000-00" required>
+
+    </form>
+
+    <script>
+        let campoCpf = document.querySelector(".cpf")
+        campoCpf.addEventListener("keydown", ()=>{
+            let tamanhoCampo = campoCpf.value.length
+            if (tamanhoCampo == 3 || tamanhoCampo == 7) {
+                campoCpf.value += '.'
+            } else if (tamanhoCampo == 11) {
+                campoCpf.value += '-'
+            }  
+        }) 
+        
+ 
+    </script>   
+
+</body>
+</html>
+

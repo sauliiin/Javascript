@@ -1,0 +1,93 @@
+body {
+  font: bold 18pt "Comic Sans MS";
+  margin: 0;
+  padding: 0;
+  background-color: rgb(85, 0, 241);
+  font-size: 1.3em;
+  line-height: 1em;
+  text-align: center
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+div {
+  height: 8px;
+  max-width: 90%;
+  margin: 10px auto;
+  border-style:solid;
+  background: hsl(192, 100%, 86%);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.btn {
+  width: 95%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(221, 221, 221);
+  font: bold 18pt "Comic Sans MS";
+  font-size: 20px;
+  height: 50px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.btn:hover{
+    outline-color: transparent;
+    outline-style: solid;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 5px rgb(16, 0, 87);
+    transition: 0.3s;   
+}
+.btn:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  color: aliceblue;
+  font-size: 21px;
+  background-color:rgb(16, 0, 87);
+  box-shadow: 0 0 0 5px rgb(15, 57, 245);
+  transition: 0.3s;
+  font: bold;  
+}
+.calculadora {
+  width: 400px;
+}
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-eq {
+  background-color:rgb(204, 0, 0);
+}
+.btn-eq:hover{
+  outline-color: transparent;
+  outline-style: solid;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 0 5px rgb(110, 0, 0);
+  transition: 0.3s;   
+}
+.btn-eq:focus {
+outline-color: transparent;
+outline-style: solid;
+color: aliceblue;
+font-size: 21px;
+background-color:rgb(110, 0, 0);
+box-shadow: 0 0 0 5px rgb(190, 0, 0);
+transition: 0.3s;
+font: bold;  
+}

@@ -1,0 +1,34 @@
+/*
+
+Regex ou Regular Expressions - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_expressions#special-digit
+
+Expressões regulares são padrões utilizados para selecionar combinações de caracteres em uma string. Em JavaScript, expressões regulares também são objetos. 
+
+Há duas maneiras de construir uma expressão regular:
+
+1 - Padrões simples são construídos utilizando os caracteres que você deseja encontrar correspondências diretas. Por exemplo, o padrão /abc/.
+
+2 - Quando for necessário buscar algo além de uma correspondência direta será necessário adicionar caracteres especiais
+	
+\d - Encontra correspondência com um número. Equivalente a [0-9]. Por exemplo, /\d/ ou /[0-9]/ encontra correspondente '8' em "Dróide BB8".
+\D - Encontra correspondência com um caractere que não seja número. Equivalente a [^0-9].
+$ Corresponde ao final do texto.
+{3} Pesquisa 3 ocorrências correspondentes ao carácter precedido. Entre {} deve ter um inteiro positivo.
+
+Exemplo meu addEventListener e includes
+
+function anyKeyPressed (){
+    let campoCpf = document.querySelector(".cpf");
+    const numbers = "0123456789"
+    campoCpf.addEventListener("keydown", (evento) => {
+        teclada = evento.key;
+        if (numbers.includes(teclada) || teclada == 'Backspace') {   // numbers possui o valor da teclada? Se teclou 1, é true
+            ei();
+        } else {
+            evento.preventDefault()
+            console.log(campoCpf.value[campoCpf.value.length]);
+        };
+    });
+};
+
+*/
