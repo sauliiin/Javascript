@@ -10,5 +10,5 @@ console.log(Math.random() * (10-5) + 5) // gera número aleatório entre 10 e 5.
 console.log(Math.round(Math.random() * (10-0) + 0)) // um numero aleatório entre 0 e 10
 console.log(Math.round(Math.random() * (10-5) + 5)) // pra arredondar, eu faço isso
 console.log(Math.pow(2, 10)) // potenciação: 2 elevado a 10
-console.log(2 ** 10) // mesma coisa feita acima
+console.log(2 ** 4) // mesma coisa feita acima
 console.log(100/0) // Pois é! cuidado, o JS aceita dividir um número por 0 (é impossível na matemática, mas não aqui) e o resultado é infinity
