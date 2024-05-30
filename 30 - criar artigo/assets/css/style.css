@@ -36,20 +36,24 @@ div {
     h2 {
         font: bold 18pt "Comic Sans MS";
         text-align: center;
+        max-width: 80%;
     }
     p {
         font: 15pt "Comic Sans MS";
         text-align: justify;
+        max-width: 80%;
     }
     section {
         font: 15pt "Comic Sans MS";
         text-align: justify;
+        max-width: 80%;
     }
     footer {
         text-align: center;
         font: italic 10pt "Comic Sans MS";
         color: rgba(29, 29, 29, 0.859);
         text-shadow: 2px 2px 6px white;
+        max-width: 80%;
     }
 }
 div#esquerda, div#direita {
