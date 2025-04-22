@@ -24,4 +24,6 @@ console.log(texto3.slice(2, 6))
 console.log(texto3.slice(-5))
 console.log(texto3.split(' '))
 console.log(texto3.split(' ', 2))
+console.log(texto3.search(/bibicileta/))
+console.log(texto3.search(/1/))
 

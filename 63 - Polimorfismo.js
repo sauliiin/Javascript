@@ -1,4 +1,4 @@
-// function Conta é Superclass na POO, ou classe pai/mãe 
+// function Conta é Superclass na POO, ou classe pai/mãe. Polimorfismo é quando filhas se comportam de forma diferente, mesmo tendo mesmo pai. Por ex, posso criar contas correntes com limites diferentes, conta poupança etc 
 function Conta (agencia, conta, saldo) {
     this.agencia = agencia;
     this.conta = conta;
